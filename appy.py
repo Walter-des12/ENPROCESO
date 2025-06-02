@@ -270,10 +270,36 @@ seccion = st.sidebar.radio("Navegación", ["Inicio", "Tienda", "Precio", "Ayuda"
 if seccion == "Inicio":
     st.title("🏠 Bienvenido a QOMI")
     st.write("""
-    QOMI es tu plataforma para reservar platos deliciosos y disfrutar de las mejores bebidas típicas de Perú, además de otras opciones reconocidas mundialmente.
-    
-    Usa el menú lateral para navegar entre las secciones: Explora nuestras tiendas, elige un plan de suscripción, haz reservas y contáctanos.
-    """)
+# 🍽️ ¡Bienvenido a QOMI!
+
+**QOMI** es tu plataforma integral para **reservar platos deliciosos**, **gestionar tus comidas diarias** y disfrutar de una experiencia gastronómica moderna, organizada y 100% digital.
+
+Desde nuestras cafeterías universitarias y restaurantes aliados, QOMI te permite:
+- ✅ **Explorar menús actualizados** con platos típicos del Perú 🇵🇪 y especialidades internacionales 🌍.
+- 📲 **Hacer reservas anticipadas** para evitar filas y asegurar tus comidas preferidas.
+- 💳 **Acceder a planes de suscripción** que te ayudan a ahorrar y planificar tus semanas.
+- 🔔 **Recibir notificaciones en tiempo real** sobre la disponibilidad de platos, promociones o cambios en el menú.
+- 📊 **Controlar tu historial de consumo** y tus tickets digitales desde tu cuenta personal.
+
+---
+
+### 🚀 ¿Cómo empezar?
+Usa el **menú lateral izquierdo** para:
+- 🔍 Navegar entre las tiendas disponibles
+- 🛒 Consultar tu carrito y realizar pagos
+- 📝 Reservar tus platos del día
+- ⭐ Ver los beneficios de ser usuario **Premium**
+- 📞 Contactar con nuestro equipo de soporte
+
+---
+
+### 🌱 ¿Por qué QOMI?
+Porque creemos en una **alimentación eficiente, sostenible y centrada en el usuario**. QOMI ayuda a reducir el desperdicio de alimentos, mejorar la planificación de cocinas institucionales y promover un consumo responsable en el marco del **ODS 12**.
+
+---
+
+¡Únete a QOMI y transforma tu forma de alimentarte en el campus o en el trabajo!
+""")
 
 elif seccion == "Tienda":
     st.title("🛍️ Nuestra Tienda - Bebidas y Platos")
