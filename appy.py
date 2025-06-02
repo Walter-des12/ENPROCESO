@@ -116,7 +116,7 @@ tiendas = {
         "Principales": ["Arroz con Mariscos", "Tiradito"],
         "Postres": ["Suspiro a la Limeña", "Mazamorra Morada"]
     },
-    "Picantería Andina": {
+    "El chino": {
         "Platos Fuertes": ["Rocoto Relleno", "Cuy Chactado", "Carapulcra"],
         "Bebidas": ["Chicha de Jora", "Emoliente"],
         "Entrantes": ["Papa Rellena", "Tamales"],
